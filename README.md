@@ -2,7 +2,7 @@
 ⭐ 欢迎使用BeePulse2系列脉冲控制器 - DBD团队最新研发的高性能脉冲控制解决方案
 
 ## 激光模块
-- 软甲下载 [Laser](downloads/DBD-Laser.zip)
+- 软件下载 [Laser](downloads/DBD-Laser.zip)
 - 通信协议 [PWM模块通讯地址](downloads\PWM模块通讯地址.xls)
 
 ## 脉冲+方向模块
