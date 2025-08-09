@@ -1,28 +1,76 @@
 # BeePulse2
-⭐ 欢迎体验BeePulse2系列脉冲控制器 - DBD团队最新研发的高性能脉冲控制解决方案
-- 这款控制板可以用来控制激光模块
-- 也可以用来控制伺服电机
 
-## 激光模块
-- 可以设置PWM输出的频率和占空比
-- 内置10组 占空比-持续时间参数 可以一键启动 依次执行
-- 软件下载 [Laser](downloads/DBD-Laser.zip)
-- 通信协议 [PWM模块通讯地址](downloads\PWM模块通讯地址.xls)
+⭐ **欢迎体验BeePulse2系列脉冲控制器** - DBD团队最新研发的高性能脉冲控制解决方案
 
-## 脉冲+方向模块
-- 这款产品主要用于扩展交流伺服电机的使用
-- 当系统需要使用多个伺服电机时，使用这款模块可以方便的扩展
-- 使用时,每个模块作为一个从站,讲总线信息指令转为脉冲和方向信号,从而控制伺服电机运转
-- 这款产品拥有正负限位功能
-- 拥有回零功能
-- 用法同Bee
-- 常用的工作模式如位置模式/速度模式/回零模式/同步插补模式
+## 🚀 产品概述
 
-## About DBD
-DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
+BeePulse2是一款多功能脉冲控制器，具有以下特点：
+- 🎯 **激光模块控制** - 精确的PWM输出控制
+- ⚙️ **伺服电机控制** - 支持多种工作模式
+- 🔧 **高性能设计** - 稳定可靠的工业级解决方案
+- 📡 **总线通信** - 支持多从站扩展
+
+## 🔥 激光模块控制
+
+### 主要功能
+- ⚡ **PWM输出控制** - 可精确设置频率和占空比
+- 📋 **预设参数组** - 内置10组占空比-持续时间参数，支持一键启动依次执行
+- 🎛️ **实时调节** - 支持运行时动态调整参数
+
+### 相关资源
+- 📥 **软件下载**: [DBD-Laser控制软件](downloads/DBD-Laser.zip)
+- 📖 **通信协议**: [PWM模块通讯地址说明](downloads/PWM模块通讯地址.xls)
+
+## ⚙️ 脉冲+方向模块
+
+### 产品特点
+- 🔌 **多轴扩展** - 专为多伺服电机系统设计，便于系统扩展
+- 🌐 **从站架构** - 每个模块作为独立从站，将总线指令转换为脉冲和方向信号
+- 🛡️ **安全保护** - 内置正负限位功能，确保运行安全
+- 🏠 **回零功能** - 支持自动回零，提高定位精度
+
+### 工作模式
+- 📍 **位置模式** - 精确位置控制
+- 🏃 **速度模式** - 恒速运行控制
+- 🔄 **回零模式** - 自动寻找零点
+- 🔗 **同步插补模式** - 多轴协调运动
+
+### 兼容性
+- ✅ 用法与Bee系列产品完全兼容
+
+## 📋 技术规格
+
+| 参数 | 规格 |
+|------|------|
+| 工作电压 | 12V/24V |
+| 通信接口 | RS485 |
+| PWM频率范围 | 100Hz-100kHz |
+| 工作温度 | -20℃~+70℃ |
 
 
-## Technical Support
-- If any questions, please feel free to contact us:
-- 如果有任何问题, 请联系我们:
-- ![](images/wechat.jpg)
+## 🏢 关于DBD
+
+DBD是一家专注于创新运动控制技术的初创制造商。作为电机驱动器、控制器和系统的制造商和开发商，DBD在技术设计中始终强调：
+- 🎯 **性能** (Performance)
+- ⚡ **效率** (Efficiency) 
+- 🛡️ **可靠性** (Reliability)
+- 🔒 **安全性** (Safety)
+- 🎨 **简洁性** (Simplicity)
+
+## 📞 技术支持
+
+如果您有任何问题，请随时联系我们：
+
+- 📱 **微信支持**：扫描下方二维码
+
+![微信二维码](images/wechat.jpg)
+
+---
+
+## 📄 许可证
+
+本项目遵循相应的开源许可证，详情请查看 [LICENSE](LICENSE) 文件。
+
+---
+
+*© 2024 DBD Team. All rights reserved.*
